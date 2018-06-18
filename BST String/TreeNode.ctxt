@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=initValue\ initLeft\ initRight
+comment0.target=TreeNode(java.lang.Object,\ TreeNode,\ TreeNode)
+comment0.text=\r\n\ \ Constructs\ a\ new\ TreeNode\ with\ object\ initValue,\r\n\r\n\ @param\ \ initValue\ \ New\ element\ object\r\n\ @param\ \ initLeft\ \ \ Reference\ to\ the\ left\ element\r\n\ @param\ \ initRight\ \ Reference\ to\ the\ right\ element\r\n
+comment1.params=initValue
+comment1.target=TreeNode(java.lang.Object)
+comment1.text=\r\n\ \ Constructs\ a\ single\ leaf\ TreeNode\r\n\r\n\ @param\ \ initValue\ \ New\ element\ object\r\n
+comment2.params=theNewValue
+comment2.target=void\ setValue(java.lang.Object)
+comment2.text=\r\n\ \ Sets\ the\ value\ attribute\ of\ the\ TreeNode\ object\r\n\r\n\ @param\ \ theNewValue\ \ value\ attribute\ of\ the\ TreeNode\ object\r\n
+comment3.params=theNewLeft
+comment3.target=void\ setLeft(TreeNode)
+comment3.text=\r\n\ \ Sets\ the\ left\ attribute\ of\ the\ TreeNode\ object\r\n\r\n\ @param\ \ theNewLeft\ \ reference\ to\ a\ TreeNode\r\n
+comment4.params=theNewRight
+comment4.target=void\ setRight(TreeNode)
+comment4.text=\r\n\ \ Sets\ the\ right\ attribute\ of\ the\ TreeNode\ object\r\n\r\n\ @param\ \ theNewRight\ \ The\ new\ right\ value\r\n
+comment5.params=
+comment5.target=java.lang.Object\ getValue()
+comment5.text=\r\n\ \ Gets\ the\ value\ attribute\ of\ the\ TreeNode\ object\r\n\r\n\ @return\ \ \ \ The\ value\ value\r\n
+comment6.params=
+comment6.target=TreeNode\ getLeft()
+comment6.text=\r\n\ \ Gets\ the\ left\ attribute\ of\ the\ TreeNode\ object\r\n\r\n\ @return\ \ \ \ The\ left\ value\r\n
+comment7.params=
+comment7.target=TreeNode\ getRight()
+comment7.text=\r\n\ \ Gets\ the\ right\ attribute\ of\ the\ TreeNode\ object\r\n\r\n\ @return\ \ \ \ The\ right\ value\r\n
+numComments=8

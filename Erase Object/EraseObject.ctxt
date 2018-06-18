@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EraseObject()
+comment1.params=xCoord\ yCoord
+comment1.target=boolean\ removeObject(int,\ int)
+comment2.params=
+comment2.target=int[][]\ getMaze()
+comment3.params=grid\ x\ y
+comment3.target=int[][]\ removeWall(int[][],\ int,\ int)
+comment4.params=inFileName
+comment4.target=int[][]\ loadMaze(java.lang.String)
+comment5.params=maze
+comment5.target=void\ display(int[][])
+comment6.params=
+comment6.target=boolean\ isDone()
+numComments=7

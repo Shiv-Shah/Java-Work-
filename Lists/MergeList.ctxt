@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=MergeList(java.lang.String)
+comment0.text=\r\n\ \ Open\ a\ file\ containing\ id/inventory\ pairs\ of\ data\r\n\r\n\ @param\ \ fileName\ \ File\ to\ be\ opened\r\n
+comment1.params=list
+comment1.target=void\ readData(java.util.LinkedList)
+comment1.text=\r\n\ \ Reads\ a\ file\ containing\ id/inv\ data\ pairs.\ The\ first\ line\ of\ the\r\n\ \ file\ contains\ the\ number\ of\ id/inventory\ integer\ pairs\ listed\ on\r\n\ \ subsequent\ lines.\r\n\r\n\ @param\ \ list\ \ Reference\ to\ LinkedList\ to\ which\ data\ will\ be\ added\r\n
+comment2.params=list
+comment2.target=void\ printList(java.util.LinkedList)
+comment2.text=\r\n\ \ Prints\ contents\ of\ list\r\n\r\n\ @param\ \ list\ \ linked\ list\ to\ be\ printed\r\n
+comment3.params=listA\ listB
+comment3.target=void\ split(java.util.LinkedList,\ java.util.LinkedList)
+comment3.text=\r\n\ \ Splits\ listA\ into\ two\ parts.\ listA\ retains\ the\ first\r\n\ \ half\ of\ the\ list,\ listB\ contains\ the\ last\ half\ of\r\n\ \ the\ original\ list.\r\n\r\n\ @param\ \ listA\ \ \ \ Original\ list.\ reduced\ by\ half\ after\ split.\r\n\ @param\ \ listB\ \ \ \ Contains\ last\ half\ of\ the\ original\ list\r\n
+comment4.params=listA\ listB
+comment4.target=java.util.LinkedList\ merge(java.util.LinkedList,\ java.util.LinkedList)
+comment4.text=\r\n\ \ Two\ linked\ lists\ listA\ and\ listB\ are\ merged\ into\ a\ single\r\n\ \ linked\ list\ mergedList.\ They\ are\ placed\ in\ mergedList\ starting\r\n\ \ with\ the\ smallest\ item\ on\ either\ list\ and\ continue\ working\ up\ to\r\n\ \ to\ largest\ item.\r\n\r\n\ @param\ \ listA\ \ \ LinkedList\ in\ nondecreasing\ order\r\n\ @param\ \ listB\ \ \ LinkedList\ in\ nondecreasing\ order\r\n\ @return\ \ \ \ \ \ \ \ \ List\ \ containing\ all\ the\ values\ from\ lists\ listA\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ listB,\ in\ nondecreasing\ order\r\n
+comment5.params=listA
+comment5.target=java.util.LinkedList\ mergeSort(java.util.LinkedList)
+comment5.text=\r\n\ \ The\ linked\ list\ is\ returned\ in\ sorted\ order.\r\n\ \ Sorted\ order\ has\ the\ smallest\ item\ first\ and\ the\ largest\ item\r\n\ \ last.\ The\ ordering\ is\ determined\ by\ the\ order\ defined\ in\ the\r\n\ \ Comparable\ class.\ The\ method\ uses\ the\ merge\ sort\ technique\ and\r\n\ \ must\ be\ recursive.\r\n\r\n\ @param\ \ listA\ \ LinkedList\ to\ be\ sorted\r\n\ @return\ \ \ \ \ \ \ \ LinkedList\ in\ sorted\ (nondecreasing)\ order\r\n
+comment6.params=list
+comment6.target=java.util.LinkedList\ reverseList(java.util.LinkedList)
+comment6.text=\r\n\ \ Reverses\ the\ order\ of\ a\ list\r\n\r\n\ @param\ \ list\ \ LinkedList\ to\ be\ reversed\r\n\ @return\ \ \ \ \ \ \ List\ in\ reverse\ order\r\n
+numComments=7

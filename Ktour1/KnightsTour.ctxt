@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=KnightsTour()
+comment1.params=
+comment1.target=void\ move()
+comment2.params=
+comment2.target=void\ makeBoard()
+comment3.params=
+comment3.target=void\ display()
+comment4.params=
+comment4.target=void\ printMoveCount()
+comment5.params=
+comment5.target=boolean\ canMove()
+numComments=6
